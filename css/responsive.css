@@ -1,0 +1,260 @@
+@media(min-width:2560px){
+	/*comman*/
+	.banner-wrapper{
+		padding: 290px 0 80px;
+	}
+	/*comman end*/
+}
+@media(min-width:2000px) and (max-width:2560px){
+	/*comman*/
+	.banner-wrapper{
+		padding: 290px 0 80px;
+	}
+	/*comman end*/
+}
+@media(min-width:1800px) and (max-width:1999px){
+	/*comman*/
+	.banner-wrapper{
+		padding: 180px 0 148px;
+	}
+	/*comman end*/
+}
+@media(min-width:1551px) and (max-width:1799px){
+	/*comman*/
+	.banner-wrapper{
+		padding: 90px 0 120px;
+	}
+
+	.our-contact{
+		margin-top: -265px;
+	}
+	/*comman end*/
+}
+@media(min-width:1351px) and (max-width:1550px){
+	/*comman*/
+	.banner-wrapper{
+		padding: 60px 0 80px;
+	}
+
+	.our-contact{
+		margin-top: -235px;
+	}
+	/*comman end*/
+}
+@media(min-width:1200px) and (max-width:1350px){
+	/*comman*/
+	.container{
+		width: 860px;
+		max-width: 860px;
+	}
+	.banner-wrapper{
+		padding: 30px 0 80px;
+	}
+
+	.our-contact{
+		margin-top: -205px;
+	}
+	/*comman end*/
+}
+@media(min-width:1025px) and (max-width:1199px){
+	/*comman*/
+	.banner-container .container,
+	.navbar .container{
+		width: 860px;
+		max-width: 860px;
+	}
+
+	.our-contact{
+		margin-top: -170px;
+	}
+	/*comman end*/
+}
+@media(min-width:992px) and (max-width:1024px){
+	/*comman*/
+	.banner-container .container,
+	.navbar .container{
+		width: 860px;
+		max-width: 860px;
+	}
+
+	.our-contact{
+		margin-top: -170px;
+	}
+	/*comman end*/
+}
+@media(min-width:768px) and (max-width:991px){
+	/*header*/
+	.navbar{
+		padding: 8px 0;
+	}
+	/*header end*/
+	/*index*/
+	.banner-container{
+		padding-top: 180px;
+	}
+	.contact-wrapper{
+	    min-height: 380px;
+	}
+
+	.our-contact{
+		margin-top: -170px;
+	}
+	/*index end*/
+}
+@media(min-width:448px) and (max-width:767px){
+	/*header*/
+	.navbar{
+		padding: 8px 0 0;
+	}
+	.navbar-brand{
+		padding-left: 10px;
+	}
+	.navbar .navbar-collapse{
+		margin-top: 10px;
+		padding: 10px 15px 20px;
+		background-color: rgba(0,0,0,0.8);
+	}
+	.navbar .navbar-nav>li{
+		margin-right: 0;
+	}
+	.navbar .navbar-nav>li>a{
+		display: table;
+		margin: 0 auto;
+		min-width: 200px;
+	}
+	.navbar-nav>li>.dropdown-menu{
+		left: 0;
+		transform: unset;
+	}
+	.navbar-nav>li>.dropdown-menu>.dropdown-item{
+		display: table;
+		margin: 0 auto;
+		min-width: 150px;
+		width: auto;
+	}
+	/*header end*/
+	/*index*/
+	.banner-container{
+	    background-size: cover;
+    	background-position: 46% -84px;
+	}
+	.banner-wrapper{
+		padding: 80px 0 80px;
+	}
+	.banner-details h1{
+		margin-bottom: 20px;
+	}
+	.btn-main-list li{
+		float: none;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.btn-main-list li .btn-main{
+		display: table;
+		margin: 0 auto;
+	}
+	.banner-details h1{
+		font-size: 30px;
+	}
+
+	.contact-wrapper{
+		padding: 100px 40px 150px;
+	    min-height: auto;
+	}
+	.contact-details h4{
+		word-break: break-all;
+		margin-bottom: 20px;
+	}
+
+	.our-contact{
+		margin-top: -72px;
+	}
+	.contact-bk img{
+		min-height: 100vh;
+	}
+	/*index end*/
+}
+@media(max-width:447px){
+	/*header*/
+	.navbar{
+		padding: 8px 0 0;
+	}
+	.navbar-brand{
+		padding-left: 10px;
+	}
+	.navbar .navbar-collapse{
+		margin-top: 10px;
+		padding: 10px 15px 20px;
+		background-color: rgba(0,0,0,0.8);
+	}
+	.navbar .navbar-nav>li{
+		margin-right: 0;
+	}
+	.navbar .navbar-nav>li>a{
+		display: table;
+		margin: 0 auto;
+		min-width: 200px;
+	}
+	.navbar-nav>li>.dropdown-menu{
+		left: 0;
+		transform: unset;
+	}
+	.navbar-nav>li>.dropdown-menu>.dropdown-item{
+		display: table;
+		margin: 0 auto;
+		min-width: 150px;
+		width: auto;
+	}
+	/*header end*/
+	/*index*/
+	.banner-container{
+	    background-size: cover;
+    	background-position: 34% -84px;
+	}
+	.banner-wrapper{
+		padding: 80px 0 80px;
+	}
+	.banner-details h1{
+		margin-bottom: 20px;
+	}
+	.btn-main-list li{
+		float: none;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.btn-main-list li .btn-main{
+		display: table;
+		margin: 0 auto;
+	}
+	.banner-details h1{
+		font-size: 28px;
+	}
+
+	.our-contact{
+		margin-top: -48px;
+	}
+	.contact-bk img{
+		min-height: 100vh;
+	}
+	.contact-details h2{
+		font-size: 26px;
+	}
+	.contact-wrapper{
+		margin-top: 120px;
+		padding: 99px 40px 120px;
+	    min-height: auto;
+	}
+	.contact-details h4{
+		word-break: break-all;
+	    font-size: 13px;
+    	line-height: 24px;
+		margin-bottom: 20px;
+	}
+	.contact-details h5,
+	.contact-details p{
+		line-height: 20px;
+		font-size: 14px;
+	}
+	/*index end*/
+}
+
