@@ -350,6 +350,7 @@ footer.section{
   background-position: center;
   -webkit-animation: float 6s ease-in-out infinite;
           animation: float 6s ease-in-out infinite;
+  box-shadow: none !important;
   
 }
 
