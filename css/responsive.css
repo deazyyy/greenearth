@@ -137,6 +137,7 @@
 	}
 	.navbar-nav-inner{
 		position: relative;
+		margin:0 ;
 	}
 	.navbar-nav-outer{
 		flex-direction: column !important;
@@ -216,6 +217,7 @@
 	}
 	.navbar-nav-inner{
 		position: relative;
+		margin:0 ;
 	}
 	.navbar-nav-outer{
 		flex-direction: column !important;
