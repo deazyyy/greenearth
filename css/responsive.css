@@ -209,7 +209,7 @@
 	/*index*/
 	.banner-container{
 	    background-size: cover;
-    	background-position: 34% -84px;
+    	background-position: center;
 	}
 	.banner-wrapper{
 		padding: 80px 0 80px;
@@ -228,6 +228,9 @@
 	}
 	.banner-details h1{
 		font-size: 28px;
+	}
+	#Clouds{
+		transform: translateY(-80%);
 	}
 
 	.our-contact{
